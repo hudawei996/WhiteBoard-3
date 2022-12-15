@@ -20,13 +20,19 @@ import android.graphics.drawable.StateListDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.ColorRes;
-import android.support.annotation.DimenRes;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
+//import android.support.annotation.ColorRes;
+//import android.support.annotation.DimenRes;
+//import android.support.annotation.DrawableRes;
+//import android.support.annotation.IntDef;
+//import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.TextView;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.DimenRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 
 import com.example.gpy.whiteboard.R;
 

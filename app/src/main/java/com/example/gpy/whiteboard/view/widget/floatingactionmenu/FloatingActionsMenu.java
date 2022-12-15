@@ -10,8 +10,8 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.ColorRes;
-import android.support.annotation.NonNull;
+//import android.support.annotation.ColorRes;
+//import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.view.TouchDelegate;
 import android.view.View;
@@ -21,6 +21,9 @@ import android.view.animation.Interpolator;
 import android.view.animation.OvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.NonNull;
 
 import com.example.gpy.whiteboard.R;
 import com.github.guanpy.wblib.utils.AppContextUtil;

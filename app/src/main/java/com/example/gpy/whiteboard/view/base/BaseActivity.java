@@ -2,9 +2,12 @@ package com.example.gpy.whiteboard.view.base;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
+//import android.support.annotation.Nullable;
+//import android.support.v4.app.FragmentActivity;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 
 import com.github.guanpy.library.EventBus;
 
@@ -19,7 +22,8 @@ public abstract class BaseActivity extends FragmentActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(this.getLayoutId());
-        ButterKnife.inject(this);
+//        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         this.afterCreate(savedInstanceState);
 
     }

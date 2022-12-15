@@ -1,16 +1,19 @@
 buildscript {
     repositories {
-        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        google()
+        maven { url 'https://maven.oschina.net/content/groups/public/' }
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.3'
     }
 }
 
 allprojects {
     repositories {
-        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        google()
+        maven { url 'https://maven.oschina.net/content/groups/public/' }
         jcenter()
     }
 }
